@@ -1,0 +1,231 @@
+  Kursova.AboutForm.resources - Embedded, ContainedInManifestFile, 
+  Kursova.AddCollectionForm.resources - Embedded, ContainedInManifestFile, 
+  Kursova.AddDonatForm.resources - Embedded, ContainedInManifestFile, 
+  Kursova.AddEventForm.resources - Embedded, ContainedInManifestFile, 
+  Kursova.AddPersonForm.resources - Embedded, ContainedInManifestFile, 
+  Kursova.AddReceipientForm.resources - Embedded, ContainedInManifestFile, 
+  Kursova.CollectionForm.resources - Embedded, ContainedInManifestFile, 
+  Kursova.DonatForm.resources - Embedded, ContainedInManifestFile, 
+  Kursova.EditCollectionForm.resources - Embedded, ContainedInManifestFile, 
+  Kursova.EditDonatForm.resources - Embedded, ContainedInManifestFile, 
+  Kursova.EditEventForm.resources - Embedded, ContainedInManifestFile, 
+  Kursova.EditPersonForm.resources - Embedded, ContainedInManifestFile, 
+  Kursova.EditReceipientForm.resources - Embedded, ContainedInManifestFile, 
+  Kursova.EventForm.resources - Embedded, ContainedInManifestFile, 
+  Kursova.MainForm.resources - Embedded, ContainedInManifestFile, 
+  Kursova.PersonForm.resources - Embedded, ContainedInManifestFile, 
+  Kursova.ReceipientForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Kursova, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Kursova.AboutForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Kursova.CollectionItem: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String, System.Decimal, System.String, Int32, Int32, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String eventName 'get set' : 
+    System.String receipientName 'get set' : 
+    Int32 idEvent 'get set' : 
+    Int32 idReceipient 'get set' : 
+    System.String report 'get set' : 
+    System.Decimal targetAmount 'get set' : 
+    System.String title 'get set' : 
+    Int32 idCollection 'get set' : 
+  Methods:
+    get_idCollection(): PrivateScope, Public, HideBySig, SpecialName
+    set_idCollection(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_title(): PrivateScope, Public, HideBySig, SpecialName
+    set_title(String): PrivateScope, Public, HideBySig, SpecialName
+    get_targetAmount(): PrivateScope, Public, HideBySig, SpecialName
+    set_targetAmount(Decimal): PrivateScope, Public, HideBySig, SpecialName
+    get_report(): PrivateScope, Public, HideBySig, SpecialName
+    set_report(String): PrivateScope, Public, HideBySig, SpecialName
+    get_idReceipient(): PrivateScope, Public, HideBySig, SpecialName
+    set_idReceipient(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_idEvent(): PrivateScope, Public, HideBySig, SpecialName
+    set_idEvent(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_receipientName(): PrivateScope, Public, HideBySig, SpecialName
+    set_receipientName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_eventName(): PrivateScope, Public, HideBySig, SpecialName
+    set_eventName(String): PrivateScope, Public, HideBySig, SpecialName
+Class Kursova.CollectionService: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Create(String, Decimal, String, Int32, Int32): PrivateScope, Public, HideBySig
+    GetAll(String, String): PrivateScope, Public, HideBySig
+    Update(Int32, String, Decimal, String, Int32, Int32): PrivateScope, Public, HideBySig
+    Delete(Int32): PrivateScope, Public, HideBySig
+Class Kursova.AddCollectionForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Kursova.DonatItem: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.Decimal, System.DateTime, Int32, Int32, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String collectionTitle 'get set' : 
+    System.String personName 'get set' : 
+    Int32 idCollection 'get set' : 
+    Int32 idPerson 'get set' : 
+    System.DateTime donationDate 'get set' : 
+    System.Decimal sum 'get set' : 
+    Int32 idDonat 'get set' : 
+  Methods:
+    get_idDonat(): PrivateScope, Public, HideBySig, SpecialName
+    set_idDonat(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_sum(): PrivateScope, Public, HideBySig, SpecialName
+    set_sum(Decimal): PrivateScope, Public, HideBySig, SpecialName
+    get_donationDate(): PrivateScope, Public, HideBySig, SpecialName
+    set_donationDate(DateTime): PrivateScope, Public, HideBySig, SpecialName
+    get_idPerson(): PrivateScope, Public, HideBySig, SpecialName
+    set_idPerson(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_idCollection(): PrivateScope, Public, HideBySig, SpecialName
+    set_idCollection(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_personName(): PrivateScope, Public, HideBySig, SpecialName
+    set_personName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_collectionTitle(): PrivateScope, Public, HideBySig, SpecialName
+    set_collectionTitle(String): PrivateScope, Public, HideBySig, SpecialName
+Class Kursova.DonatService: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Create(Decimal, DateTime, Int32, Int32): PrivateScope, Public, HideBySig
+    GetDonations(String, String, Decimal): PrivateScope, Public, HideBySig
+    Update(Int32, Decimal, DateTime, Int32, Int32): PrivateScope, Public, HideBySig
+    Delete(Int32): PrivateScope, Public, HideBySig
+Class Kursova.AddDonatForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Kursova.EventItem: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String, System.String, System.DateTime, System.DateTime, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String status 'get set' : 
+    System.String goal 'get set' : 
+    System.DateTime endDate 'get set' : 
+    System.DateTime startDate 'get set' : 
+    System.String description 'get set' : 
+    System.String name 'get set' : 
+    Int32 idEvent 'get set' : 
+  Methods:
+    get_idEvent(): PrivateScope, Public, HideBySig, SpecialName
+    set_idEvent(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_name(): PrivateScope, Public, HideBySig, SpecialName
+    set_name(String): PrivateScope, Public, HideBySig, SpecialName
+    get_description(): PrivateScope, Public, HideBySig, SpecialName
+    set_description(String): PrivateScope, Public, HideBySig, SpecialName
+    get_startDate(): PrivateScope, Public, HideBySig, SpecialName
+    set_startDate(DateTime): PrivateScope, Public, HideBySig, SpecialName
+    get_endDate(): PrivateScope, Public, HideBySig, SpecialName
+    set_endDate(DateTime): PrivateScope, Public, HideBySig, SpecialName
+    get_goal(): PrivateScope, Public, HideBySig, SpecialName
+    set_goal(String): PrivateScope, Public, HideBySig, SpecialName
+    get_status(): PrivateScope, Public, HideBySig, SpecialName
+    set_status(String): PrivateScope, Public, HideBySig, SpecialName
+Class Kursova.EventService: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Create(String, String, DateTime, DateTime, String, String): PrivateScope, Public, HideBySig
+    GetAll(String, String): PrivateScope, Public, HideBySig
+    Update(Int32, String, String, DateTime, DateTime, String, String): PrivateScope, Public, HideBySig
+    Delete(Int32): PrivateScope, Public, HideBySig
+Class Kursova.AddEventForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Kursova.PersonItem: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String, System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String address 'get set' : 
+    System.String email 'get set' : 
+    System.String phone 'get set' : 
+    System.String fullName 'get set' : 
+    Int32 idPerson 'get set' : 
+  Methods:
+    get_idPerson(): PrivateScope, Public, HideBySig, SpecialName
+    set_idPerson(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_fullName(): PrivateScope, Public, HideBySig, SpecialName
+    set_fullName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_phone(): PrivateScope, Public, HideBySig, SpecialName
+    set_phone(String): PrivateScope, Public, HideBySig, SpecialName
+    get_email(): PrivateScope, Public, HideBySig, SpecialName
+    set_email(String): PrivateScope, Public, HideBySig, SpecialName
+    get_address(): PrivateScope, Public, HideBySig, SpecialName
+    set_address(String): PrivateScope, Public, HideBySig, SpecialName
+Class Kursova.PersonService: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Create(String, String, String, String): PrivateScope, Public, HideBySig
+    GetPersons(String, String): PrivateScope, Public, HideBySig
+    Update(Int32, String, String, String, String): PrivateScope, Public, HideBySig
+    Delete(Int32): PrivateScope, Public, HideBySig
+Class Kursova.AddPersonForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Kursova.ReceipientItem: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String contactInfo 'get set' : 
+    System.String description 'get set' : 
+    System.String fullName 'get set' : 
+    Int32 idReceipient 'get set' : 
+  Methods:
+    get_idReceipient(): PrivateScope, Public, HideBySig, SpecialName
+    set_idReceipient(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_fullName(): PrivateScope, Public, HideBySig, SpecialName
+    set_fullName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_description(): PrivateScope, Public, HideBySig, SpecialName
+    set_description(String): PrivateScope, Public, HideBySig, SpecialName
+    get_contactInfo(): PrivateScope, Public, HideBySig, SpecialName
+    set_contactInfo(String): PrivateScope, Public, HideBySig, SpecialName
+Class Kursova.ReceipientService: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Create(String, String, String): PrivateScope, Public, HideBySig
+    GetAll(String, String): PrivateScope, Public, HideBySig
+    Update(Int32, String, String): PrivateScope, Public, HideBySig
+    Delete(Int32): PrivateScope, Public, HideBySig
+Class Kursova.AddReceipientForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Kursova.EditCollectionForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32, System.String, System.Decimal, System.String, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Kursova.CollectionForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Kursova.EditDonatForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32, System.Decimal, System.DateTime, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Kursova.DonatForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Kursova.EditEventForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32, System.String, System.String, System.DateTime, System.DateTime, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Kursova.EditPersonForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32, System.String, System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Kursova.EditReceipientForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32, System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Kursova.EventForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Kursova.PersonForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Kursova.ReceipientForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Kursova.MainForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

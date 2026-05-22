@@ -1,0 +1,30 @@
+﻿  AddDonatForm.cpp
+  AddPersonForm.cpp
+C:\Users\Taras\Desktop\YATSKOV\project\Code\AddPersonForm.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'AddPersonForm.cpp')
+  
+  DonatForm.cpp
+  EditDonatForm.cpp
+  EditPersonForm.cpp
+C:\Users\Taras\Desktop\YATSKOV\project\Code\EditPersonForm.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'EditPersonForm.cpp')
+  
+  MainForm.cpp
+C:\Users\Taras\Desktop\YATSKOV\project\Code\AddPersonForm.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'MainForm.cpp')
+  
+C:\Users\Taras\Desktop\YATSKOV\project\Code\EditPersonForm.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'MainForm.cpp')
+  
+  PersonForm.cpp
+C:\Users\Taras\Desktop\YATSKOV\project\Code\AddPersonForm.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'PersonForm.cpp')
+  
+C:\Users\Taras\Desktop\YATSKOV\project\Code\EditPersonForm.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'PersonForm.cpp')
+  
+  Generating Code...
+  AboutForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Kursova.vcxproj -> C:\Users\Taras\Desktop\YATSKOV\project\Code\x64\Debug\Kursova.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
